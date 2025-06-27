@@ -78,10 +78,12 @@ Confusion matrix
 Accuracy score
 
 🔍 Summary
-Project	Dataset	Model Type	Evaluation
-Credit Classification	credit_data.csv	Random Forest + CV	Cross-validation mean score
-Digit Recognition	Digits dataset	Random Forest + GridSearch	Accuracy + Confusion Matrix
-Iris Classification	Iris dataset	Random Forest	Accuracy + Confusion Matrix
+| Project               | Dataset           | Model Type                 | Evaluation                  |
+| --------------------- | ----------------- | -------------------------- | --------------------------- |
+| Credit Classification | `credit_data.csv` | Random Forest + CV         | Cross-validation mean score |
+| Digit Recognition     | Digits dataset    | Random Forest + GridSearch | Accuracy + Confusion Matrix |
+| Iris Classification   | Iris dataset      | Random Forest              | Accuracy + Confusion Matrix |
+
 
 ✅ How to Run
 Each Python file is self-contained. Run them individually:
